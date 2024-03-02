@@ -1,0 +1,66 @@
+.bg-home{
+    background-color: rgba(255, 255, 255,0.9);
+    width: 600px;
+    height: 600px;
+    margin: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    
+    
+    
+    
+
+}
+h1{
+    color: #344d67;
+    font-weight: 500;;
+}
+
+.btn-inicio-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botones-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2{
+    color: #6eccaf;
+    padding: 3px;
+}
+p{
+    color: #344d67;
+}
+
+@media (max-width: 768px){
+h1 {
+    font-size: 40px;
+    }
+
+.botones-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media (max-width: 768px){
+.h2-home{
+    color: #344d67;
+    padding: 3px;
+}
+}
+
+
+
+
+/* en este caso defini el color en index.css y en Home.css
+queda el de Home, por que es el "ultimo" definido.
+Esto hablando de gerarquia en caso que en dos componentes definamos el mismo selector en ambos archivos */

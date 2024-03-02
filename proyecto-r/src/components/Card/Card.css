@@ -1,0 +1,50 @@
+.card{
+    width: fit-content;
+    
+}
+
+.card-color{
+    background-color: #344d67;    
+}
+
+h3{
+    color: #6eccaf;    
+}
+
+.btn-card{
+    background-color: #6eccaf;
+    color: #344d67;
+}
+.btn-card:hover{
+    background-color: #6eccaf;
+    color: #344d67;
+}
+
+
+.list-group{
+    width: 350px;   
+}
+
+.list-group-item:hover{
+    background-color: #6eccaf;
+    cursor: pointer;
+    
+ 
+}
+
+
+
+.list-group>li{
+    background-color: #344d67;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+
+
+
+
+

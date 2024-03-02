@@ -1,0 +1,14 @@
+.btn-inicio{
+    background-color: #344d67;
+    color: #6eccaf;
+    padding: 15px;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn-inicio:hover{
+    background-color: #6eccaf;
+    color: #344d67;
+}
+
