@@ -6,6 +6,10 @@
     background-color: #344d67;
 }
 
+.botones:hover{
+    background-color: #6eccaf;
+}
+
 .colorW{
     color: #f5f5f5;
 }
@@ -15,4 +19,19 @@
     
 }
 
+
+
+.name{
+    color: #344d67;
+}
+
+
+h2, h3{
+    color: #344d67;
+}
+
+h3{
+    width: fit-content;
+    padding-left: 15px;
+}
 /*prueba archivo*/

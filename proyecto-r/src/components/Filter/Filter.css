@@ -1,5 +1,6 @@
 .div-filter{
     width: fit-content;
+    
 }
 .form-switch{
     background-color: #344d67;
@@ -8,9 +9,62 @@
 }
 
 .h2-filters{
-    color: #344d67;
+    color: #6eccaf;
     margin-bottom: 0px;
+    width: fit-content;
 }
+
+.section-filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #344d67;
+    padding: 10px;
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+
+.menu-hamburguesa{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.ocultar{
+    display:none;
+}
+
+.mostrar{
+    display:contents;
+}
+
+.todo{
+}
+
+@media (min-width: 800px){
+    .todo{
+        display: none;
+    }
+    .filtrosbis{
+        display:contents;
+    }
+     
+}
+
+.filter-color{
+    color: #6eccaf;
+}
+
+
+@media (max-width: 801px){
+    .filtrosbis{
+        display: none;
+        
+    }
+     
+}
+
+
+
 
 
 

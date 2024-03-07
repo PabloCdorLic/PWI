@@ -7,10 +7,10 @@ export default function Description({status,especie,genero,origen,setHide}) {
         <div className="d-flex flex-column">
             <button className="btn btn-card w-fit px-3 m-2 align-self-end" onClick={ocultar}>X</button>
             <ul className="list-group d-flex flex-column">
-                <li className="list-group-item fw-bold p-3">Character Status: {status}</li>
-                <li className="list-group-item fw-bold p-3"><span className="fw-normal">Species</span>{especie}</li>
-                <li className="list-group-item fw-bold p-3"><span className="fw-normal">Origin</span>{origen}</li>
-                <li className="list-group-item fw-bold p-3"><span className="fw-normal">Gender</span>{genero}</li>
+                <li className="list-group-item fw-bold p-4">Character Status: {status}</li>
+                <li className="list-group-item fw-bold p-4"><span className="fw-normal">Species</span>{especie}</li>
+                <li className="list-group-item fw-bold p-4"><span className="fw-normal">Origin</span>{origen}</li>
+                <li className="list-group-item fw-bold p-4"><span className="fw-normal">Gender</span>{genero}</li>
             </ul> 
                    
         </div>

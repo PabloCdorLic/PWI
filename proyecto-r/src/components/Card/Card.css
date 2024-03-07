@@ -41,7 +41,19 @@ h3{
     flex-direction: column;
     color: white;
     
+    
 }
+
+.list-group-item{
+    border-top: 1px solid black;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.textopersonaje{
+    color: #6eccaf;
+}
+
 
 
 

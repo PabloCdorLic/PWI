@@ -14,10 +14,11 @@ export default function Card({infoPersonaje}) {
 
     return(
         
-            <div className="rounded card px-2 py-2 gap-3 card-color d-flex flex-row">
-                <div className="d-flex flex-column align-items-center">
+            <div className="rounded card px-2 py-2 gap-3 card-color d-flex flex-row
+            ">
+                <div className="d-flex flex-column align-items-center justify-content-center">
                     <img src={infoPersonaje.image}/>
-                    <h3>{infoPersonaje.name}</h3>
+                    <h3 className="textopersonaje">{infoPersonaje.name}</h3>
                     {hide === false? "":<button className="btn btn-card w-40 p-2 align-self-end" onClick={showMore}>Know More...</button>}
                 </div>
 
